@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "FlixCruz",
+    "slug": "FlixCruz",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
