@@ -1,3 +1,3 @@
 ### Flix Cruz
 
-    - Um app de stream tipo netflix/amazon prime
+    - Um app mobile de stream tipo netflix/amazon prime
