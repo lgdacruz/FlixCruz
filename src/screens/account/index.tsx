@@ -1,7 +1,10 @@
 import { AntDesign } from "@expo/vector-icons";
 
-import { TextCenter, ViewCenter } from "../../style";
+import { AuthUse } from "../../contexts/auth";
+import { ButtonCenter, TextCenter, ViewCenter } from "../../style";
 export default function Account() {
+  const { LogOut } = AuthUse();
+
   return (
     <ViewCenter align="flex-start">
       <ViewCenter fd="row" mg="20px">
@@ -22,6 +25,10 @@ export default function Account() {
         </TextCenter>
         <AntDesign name="caretdown" size={20} color="white" />
       </ViewCenter>
+
+      <ButtonCenter onPress={LogOut}>
+        <TextCenter>Sair</TextCenter>
+      </ButtonCenter>
     </ViewCenter>
   );
 }

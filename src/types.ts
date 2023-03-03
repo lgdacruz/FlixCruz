@@ -19,3 +19,15 @@ export interface FilmTypes {
   title: string;
   description: string;
 }
+
+export interface AuthTypes {
+  user: UserTypes;
+  globalLoading: boolean;
+  LogIn: (login: string, password: string) => Promise<void>;
+  LogOut: () => void;
+}
+export interface UserTypes {
+  name?: string;
+  age?: string;
+  from?: string;
+}

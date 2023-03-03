@@ -50,6 +50,19 @@ export const ButtonCenter = styled.TouchableOpacity<StyleTypes>`
   width: ${(props) => (props.wd ? props.wd : "auto")};
   padding: ${(props) => (props.pd ? props.pd : "0px")};
   margin: ${(props) => (props.mg ? props.mg : "0px")};
+  border-radius: 5px;
+`;
+export const Input = styled.TextInput<StyleTypes>`
+  align-self: ${(props) => (props.self ? props.self : "center")};
+  text-align: center;
+  background-color: ${(props) => (props.bg ? props.bg : theme.verylight)};
+  height: ${(props) => (props.hg ? props.hg : "40px")};
+  width: ${(props) => (props.wd ? props.wd : "250px")};
+  padding: ${(props) => (props.pd ? props.pd : "5px")};
+  margin: ${(props) => (props.mg ? props.mg : "10px 0px")};
+  border-radius: 7px;
+
+  font-size: 20px;
 `;
 
 export const Img = styled.Image<StyleTypes>`
