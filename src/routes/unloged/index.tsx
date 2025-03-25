@@ -1,5 +1,6 @@
 import { createStackNavigator } from "@react-navigation/stack";
 
+import Header from "./header";
 import { ThemeUse } from "../../contexts/theme";
 import UnlogedScreen from "../../screens/unloged";
 const Stack = createStackNavigator();
@@ -10,6 +11,7 @@ export default function MyStackUnloged() {
     <Stack.Navigator
       screenOptions={{
         cardStyle: { backgroundColor: colors.dark },
+        header: () => <Header />,
       }}
     >
       <Stack.Screen name="UnlogedScreen" component={UnlogedScreen} />

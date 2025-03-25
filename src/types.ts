@@ -25,9 +25,14 @@ export interface AuthTypes {
   globalLoading: boolean;
   LogIn: (login: string, password: string) => Promise<void>;
   LogOut: () => void;
+  ChangeData: (data: UserTypes) => void;
 }
 export interface UserTypes {
   name?: string;
   age?: string;
   from?: string;
+}
+export interface CredentialsValues {
+  user: string;
+  password: string;
 }

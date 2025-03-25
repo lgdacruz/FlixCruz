@@ -1,10 +1,10 @@
 import { createMaterialTopTabNavigator } from "@react-navigation/material-top-tabs";
 
+import Lazy from "./lazyPlaceholder";
 import { ThemeUse } from "../../contexts/theme";
 import Animes from "../../screens/home/animes";
 import Films from "../../screens/home/films";
 import Series from "../../screens/home/series";
-import Lazy from "./lazyPlaceholder";
 
 const Tab = createMaterialTopTabNavigator();
 

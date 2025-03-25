@@ -48,12 +48,23 @@ export const AuthProvider = ({ children }) => {
     setGlobalLoading(false);
   };
 
+  const ChangeData = async (changeData: UserTypes) => {
+    try {
+      await AsyncStorage.setItem("@user", JSON.stringify(changeData));
+      setUser(changeData);
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
   useEffect(() => {
     AuthVerify();
   }, []);
 
   return (
-    <AuthContext.Provider value={{ user, globalLoading, LogIn, LogOut }}>
+    <AuthContext.Provider
+      value={{ user, globalLoading, LogIn, LogOut, ChangeData }}
+    >
       {children}
     </AuthContext.Provider>
   );
