@@ -1,5 +1,6 @@
 <h1>FlixCruz</h1> 
 
+
 <a href="https://www.youtube.com/watch?v=f0ryhWBkcVs">Vídeo completo no YouTube</a>
 
 <h2>Descrição</h2> 
@@ -64,4 +65,5 @@ LinkedIn: [linkedin.com/in/lgdacruz​](https://www.linkedin.com/in/cruxzx/)
 GitHub: github.com/lgdacruz​
 
 FlixCruz - Sua plataforma de streaming favorita!​
+![Simulator Screenshot - iPhone 15 Pro Max - 2025-03-25 at 17 06 19](https://github.com/user-attachments/assets/0b406123-3ca3-4faa-8701-b4165ee91148)
  
